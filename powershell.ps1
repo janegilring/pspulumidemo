@@ -1,4 +1,5 @@
 Import-Module pspulumiyaml.azurenative.resources
+Import-Module pspulumiyaml.azurenative.storage
 
 New-PulumiYamlFile {
 
