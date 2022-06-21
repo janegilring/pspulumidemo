@@ -9,7 +9,7 @@
 			"VARIANT": "3.14"
 		}
 	},
-	// Set *default* container specific settings.json values on container create. 
+	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.defaultProfile.linux": "zsh",
 		"terminal.integrated.profiles.linux": {
@@ -25,7 +25,6 @@
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pwsh -command '& { Install-Module PSPulumiYaml -Force }'",
-	// Replace when using a ptrace-based debugger like C++, Go, and Rust
 	"runArgs": [
 		"--env-file",
 		"devcontainer.env"
