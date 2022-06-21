@@ -40,7 +40,7 @@ RUN chmod +x /opt/microsoft/powershell/7/pwsh
 RUN ln -s /opt/microsoft/powershell/7/pwsh /usr/bin/pwsh
 
 # Download the pulumi '.tar.gz' archive
-RUN curl -fsSL https://get.pulumi.com/releases/sdk/pulumi-v3.33.2-linux-x64.tar.gz  -o /tmp/pulumi.tar.gz
+RUN curl -fsSL https://get.pulumi.com/releases/sdk/pulumi-v3.34.1-linux-x64.tar.gz  -o /tmp/pulumi.tar.gz
 
 # Create the target folder where pulumi will be placed
 RUN mkdir -p /opt/pulumi
